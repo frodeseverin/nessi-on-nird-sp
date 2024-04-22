@@ -1,2 +1,2 @@
 # nessi-on-nird-sp
-Repository for building containers to with NESSI/EESSI enabled
+Repository for building containers with NESSI/EESSI enabled
