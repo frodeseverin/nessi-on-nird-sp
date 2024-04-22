@@ -49,7 +49,7 @@ RUN echo "AllowTcpForwarding yes" >> /etc/ssh/sshd_config
 RUN echo '*		hard	nproc		1000' >>/etc/security/limits.conf && \
     echo '*		hard	priority	5' >>/etc/security/limits.conf && \
     echo '*		hard	rss		36700160' >>/etc/security/limits.conf && \
-    echo '*		hard	as		36700160' >>/etc/security/limits.conf && \
+    echo '*		hard	as		36700160' >>/etc/security/limits.conf
 
 EXPOSE 22
 
