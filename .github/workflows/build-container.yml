@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - Dockerfile
+      - .github/workflows/build-container.yml
 
   pull_request:
     branches:
