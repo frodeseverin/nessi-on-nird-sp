@@ -34,7 +34,6 @@ RUN dnf -y install openssh-server \
                    glibc-all-langpacks \
                    langpacks-en \
                    langpacks-nb \
-                   httpd-tools \
                    mc \
                    pciutils-libs \
                    rdma-core-devel.x86_64
