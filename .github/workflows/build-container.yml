@@ -62,7 +62,7 @@ jobs:
         run: |
           echo REPOSITORY_OWNER=$(echo ${{ github.repository_owner }} | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
           tag=${{ matrix.tag }}
-          echo DOCKERFILE=Dockerfile.${tag//:/-} >> $GITHUB_ENV
+          echo DOCKERFILE=Dockerfile >> $GITHUB_ENV
 
       - name: Build and push to GitHub Packages
         uses: docker/build-push-action@c56af957549030174b10d6867f20e78cfd7debc5 #v3.2.0
