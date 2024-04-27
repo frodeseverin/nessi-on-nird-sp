@@ -1,0 +1,4 @@
+# File patterns to ignore
+
+script.log
+script.timing
