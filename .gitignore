@@ -1,4 +1,10 @@
 # File patterns to ignore
 
+# Commands issued as normal user
 script.log
 script.timing
+
+# Commands issued using sudo
+root.log
+root.timing
+
