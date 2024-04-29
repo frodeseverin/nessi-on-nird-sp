@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "2222:22"
+## Possible to set up automatic rebuild of images
+## Snipped from Docker documentation for Hello World example
+##@TODO: Tailor this to current image if needed 
+#develop:
+#      watch:
+#        - action: sync
+#          path: .
+#          target: /code

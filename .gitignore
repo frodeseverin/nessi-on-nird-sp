@@ -5,6 +5,6 @@ script.log
 script.timing
 
 # Commands issued using sudo
-root.log
+root.script
 root.timing
 
